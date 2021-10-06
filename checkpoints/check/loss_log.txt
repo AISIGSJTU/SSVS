@@ -1,0 +1,2 @@
+================ Training Loss (Thu Oct  7 00:30:13 2021) ================
+(epoch: 1, iters: 100, time: 0.233, data: 0.649) D_A: 0.363 G_A: 0.453 cycle_A: -5.890 idt_A: 0.000 D_B: 0.254 G_B: 0.860 cycle_B: 0.022 idt_B: 0.000 
