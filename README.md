@@ -18,9 +18,9 @@ Follow ssv_env.yml to create the environment.
 #### Data Preparation
 Put the downloaded dataset to dataset/ssv.
 
-   XCAD/train/* ->datasets/ssv/*
-   XCAD/test/images -> datasets/ssv/testB
-   XCAD/test/masks -> datasets/ssv/testA
+    XCAD/train/* ->datasets/ssv/*
+    XCAD/test/images -> datasets/ssv/testB
+    XCAD/test/masks -> datasets/ssv/testA
    
 Put some background images (e.g.,XCAD/train/trainC) to datasets/ssv/testC.
 Using fractal.py to synthesis fractals and put it in datasets/ssv/trainA.
