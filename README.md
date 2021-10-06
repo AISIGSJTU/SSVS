@@ -10,10 +10,16 @@ If you find our dataset, code or paper useful, please cite as
     }
 
 ## XCAD dataset
-You can download the XCAD dataset from [dropbox](https://www.dropbox.com/s/z0lk5oz6gt9mgd2/XCAD.zip?dl=0) or [BaiduNetdisk](https://pan.baidu.com/s/1C9d9_92TSDBGBfagatTpoA) with the key ___neia___.
+You can download the XCAD dataset from [Dropbox](https://www.dropbox.com/s/z0lk5oz6gt9mgd2/XCAD.zip?dl=0) or [BaiduNetdisk](https://pan.baidu.com/s/1C9d9_92TSDBGBfagatTpoA) with the key ___neia___.
 
 ## Code
-Our code will be released soon.
+#### Environment
+Follows ssv_env.yml to create the environment.
+#### Train
+Follows the scripts of arun_train.sh to train the model.
+#### Test and Evaluation
+Use arun_test.sh for inference, and use eval/test.sh to get evaluation results.
+
 
 
 
