@@ -1,1 +1,1 @@
-CUDA_VISIBLE_DEVICES=0,1,2,3 nohup python train.py --dataroot /data/home/lumos/pytorch-CycleGAN-and-pix2pix/datasets/New --name check --model usseg --dataset_mode usseg  --display_env check --n_epochs 100 --lambda_A 10 --gpu_ids 0,1,2,3 --batch_size 4 --n_epochs_decay 100 --no_flip    >>check.out &
+CUDA_VISIBLE_DEVICES=0,1,2,3 nohup python train.py --dataroot ../datasets/ssv --name check --model usseg --dataset_mode usseg  --display_env check --n_epochs 100 --lambda_A 10 --gpu_ids 0,1,2,3 --batch_size 4 --n_epochs_decay 100 --no_flip    >>check.out &
