@@ -15,7 +15,7 @@ from albumentations import (
     Normalize#Default:mean,std of ImageNet 2012 {mean=[0.485, 0.456, 0.406],std=[0.229, 0.224, 0.225]}
 )
 from tqdm import trange
-PATH='datasets/SSV/trainA'
+PATH='datasets/ssv/trainA'
 def rectangle(x,y,w,h,img,flag=-1,ite=3):
     epsx=np.random.randint(-25,25)
     epsy=np.random.randint(-25,25)
