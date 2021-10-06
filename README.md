@@ -14,9 +14,9 @@ You can download the XCAD dataset from [Dropbox](https://www.dropbox.com/s/z0lk5
 
 ## Code
 #### Environment
-Follows ssv_env.yml to create the environment.
+Follow ssv_env.yml to create the environment.
 #### Train
-Follows the scripts of arun_train.sh to train the model.
+Follow the scripts of arun_train.sh to train the model.
 #### Test and Evaluation
 Use arun_test.sh for inference, and use eval/test.sh to get evaluation results.
 
