@@ -15,6 +15,14 @@ You can download the XCAD dataset from [Dropbox](https://www.dropbox.com/s/z0lk5
 ## Code
 #### Environment
 Follow ssv_env.yml to create the environment.
+#### Data Preparation
+Put the downloaded dataset to dataset/ssv.
+   XCAD/train/* ->datasets/ssv/*
+   XCAD/test/images -> datasets/ssv/testB
+   XCAD/test/masks -> datasets/ssv/testA
+Put some background images (e.g.,XCAD/train/trainC) to datasets/ssv/testC.
+Using fractal.py to synthesis fractals and put it in datasets/ssv/trainA.
+
 #### Train
 Follow the scripts of arun_train.sh to train the model.
 #### Test and Evaluation

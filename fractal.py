@@ -61,7 +61,7 @@ def nextx(x,y,w,h):
     x=np.random.randint(x,x+w)
     y=np.random.randint
 
-for i in trange(0,20):
+for i in trange(0,1621):
   img=np.zeros((512,512))
   x=np.random.randint(10,250)
   w=np.random.randint(15,20)#(15,25)
