@@ -1,0 +1,1 @@
+python test.py --dataroot ../dataset/ssv --name check --model usseg --dataset_mode usseg --epoch 25
